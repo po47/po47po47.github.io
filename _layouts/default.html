@@ -19,11 +19,16 @@
     </title>
 </head>
 <body>
-
+<d class="container">
     {% include header.html %}
-
-    {{ content }}
-
+    <div class="row">
+        <div class="col-8">
+            {{ content }}
+        </div>
+        <div class="col-4">
+            Sidebar
+        </div>
+    </div>
     {% include footer.html %}
 
 <!-- Optional JavaScript -->
