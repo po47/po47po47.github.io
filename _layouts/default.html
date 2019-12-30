@@ -21,12 +21,15 @@
 <body>
 <div class="container">
     {% include header.html %}
+    <div class="row bg-danger">
+        <h1> IS117</h1>
+    </div>
     <div class="row">
         <div class="col-8">
             {{ content }}
         </div>
-        <div class="col-4">
-            Sidebar
+        <div id="side" class="col-4">
+            <img src="{{ site.url }}/assets/images/IMG_5478.jpg" class="img-fluid" alt="Responsive image">
         </div>
     </div>
     {% include footer.html %}
